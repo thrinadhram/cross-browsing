@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/91863/IdeaProjects/TestngAnnotations">
+        <classes>
+            <class name="com.annotations.PracticeAnnotations">
+            <methods>
+                <include name="Enterlogindetails"/>
+                <include name="navigatemyinfo"/>
+                <include name="verifydetails"/>
+            </methods>
+        </class>
+            <class name="com.annotations.annotation2">
+                <methods>
+                    <include name="launchapp"/>
+                    <include name="Enterlogindetails"/>
+                    <include name="navigatemyinfo"/>
+                    <include name="verifydetails"/>
+                    <include name="details"/>
+                </methods>
+            </class>
+            <class name="com.annotations.parametersexample">
+                <methods><include name="setup"/>
+                    <include name="logotest"/>
+                    <include name="teardown"/>
+                    <include name="Enterlogindetails"/>
+                    <include name="navigatemyinfo"/>
+                    <include name="details"/>
+                </methods>
+            </class></classes>
+    </test>
+</suite>
